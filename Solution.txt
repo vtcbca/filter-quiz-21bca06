@@ -1,0 +1,47 @@
+1. Print first five line of file "VTCBB.txt".
+command :$ head -5 VTCBB.txt
+
+2. Print line 8 to 16 from file "VTCBB.TXT"
+command :$ head -16 VTCBB.txt | tail +8
+	
+3. Print all directiory and file of current directory with hidden files and folder.
+command :$ ls -al
+	
+4. Print second charcter of each line of "VTCBB.txt"
+command :$ cut -c2 VTCBB.txt 
+	
+5. Display the character from  8 Bytes.
+command :$ cut -c+8 VTCBB.txt
+	
+6. Skip first 5 character of each line and print it.
+command :$ cut -c+6 VTCBB.txt
+	
+7. Print only unique record of file "student.txt"
+command :$ uniq -u student.txt
+	
+8. You have "stud.csv" file which contain sid,sname,city,dept. print only student name.
+command :$ cut -d',' -f2 stud.csv
+	
+9. You have "stud.csv" file which contain sid,sname,city,dept. print only student name and dept.
+command :$ cut -d',' -f2,4 stud.csv 
+	
+10. You have "stud.csv" file which contain sid,sname,city,dept,fee. print records in ascending order of student name.
+command :$ cut -d ',' -f2 stud.csv
+	
+11. Display count of each line in "Stud.csv". Means how many time records repeat in file.
+command :$ uniq -c stud.csv
+	
+12. Convert "into.txt" file into uppercase.
+command :$ tr [a-z][A-Z] intro.txt
+	
+13. Print  "VTCBB" as "VTBB".
+command :$ echo VTCBB tr -d 'C'
+	
+14. Print "VTCBB" as "VTCD".
+command :$ 
+	
+15. Display only duplicate line from file "stud.csv"
+command :$ uniq -d stud.csv
+	
+	
+	
